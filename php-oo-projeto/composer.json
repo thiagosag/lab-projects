@@ -1,0 +1,17 @@
+{
+    "name": "sagiht/php-oo-projeto",
+    
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "thiagosag",
+            "email": "sagihtt@gmail.com"
+        }
+    ],
+    "require": {}
+}
