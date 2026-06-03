@@ -1,4 +1,4 @@
-# Lab Projects
+# Lab Projects.
 
 ## Estudos de Desenvolvimento e Depuração
 
