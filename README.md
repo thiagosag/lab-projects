@@ -1,6 +1,4 @@
-# Lab Studies
-
-## Estudos
+# Estudos
 
 O objetivo deste repositório é armazenar e organizar diferentes projetos e estudos relacionados ao desenvolvimento web e software.
 
