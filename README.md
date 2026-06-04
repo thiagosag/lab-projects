@@ -1,20 +1,9 @@
 # Lab Projects.
 
-## Estudos de Desenvolvimento e Depuração
+## Estudos
 
 O objetivo deste repositório é armazenar de forma organizada diferentes projetos (funcionais) e estudos de desenvolvimento web e software.
 
-Os projetos incluem aplicações simples e experimentais desenvolvidas durante o processo de estudo de tecnologias frontend e backend, principalmente com foco em estruturação de aplicações reais.
+Este repositório funciona como um registro contínuo de evolução. Por esse motivo, alguns projetos podem estar incompletos, conter erros ou representar apenas testes e explorações de conceitos. A proposta não é apresentar apenas soluções finalizadas, mas documentar o processo de aprendizado e prática ao longo do tempo.
 
----
 
-## Objetivo
-
-- Aprimorar uso de frameworks e ferramentas modernas;
-- Desenvolver projetos acadêmicos e experimentais de forma organizada.
-
----
-
-## Organização
-
-Cada projeto é mantido em sua respectiva pasta dentro do repositório, de forma isolada, permitindo fácil navegação e manutenção.
