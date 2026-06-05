@@ -21,8 +21,8 @@ O projeto acompanha um frontend simples em HTML/JavaScript que consome a própri
 ## Endpoints
 
 - POST /api/images → upload de imagem
-- GET /api/images/random → imagem aleatória
-- GET /api/images/category/{category}/{amount?} → por categoria
+- GET /api/random → imagem aleatória
+- GET /api/category/{category}/{amount?} → por categoria
 
 ---
 
