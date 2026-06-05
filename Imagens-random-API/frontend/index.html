@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Teomai teste</title>
+</head>
+<body>
+   <h1>Imagem Aleatória</h1>
+   <button onclick="carregaImagem()">Random</button>
+   <button onclick="carregahxh()">Hunter X Hunter</button>
+   <br>
+   <br>
+
+   <img id="imagem" width="300" />
+   <script>
+
+      async function carregahxh(){
+         try {
+            fetch('http://127.0.0.1:8000/api/images/category/hxh/1')
+            .then(res => res.json())
+            .then(data => {
+      const image = data.imagem[0]; // pega primeira imagem
+      document.getElementById('imagem').src = 'http://127.0.0.1:8000/storage/' + image.path;
+  });
+         }
+         catch (error){
+            console.error('Erro:', error);
+         }
+      }
+
+      async function carregaImagem(){
+         try{
+            const response = await fetch('http://127.0.0.1:8000/api/random/');
+            const data = await response.json();
+
+            document.getElementById('imagem').src = data.url;
+         }
+         catch (error) {
+            console.error('Erro:', error);
+         }
+      }
+
+   </script>
+</body>
+</html>
