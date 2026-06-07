@@ -61,8 +61,7 @@ class ImageController extends Controller
             ]);
         }
     }
-    #VERSÃO CHAT.
-
+    
     public function category($category, $amount = 1)
     {
     $amount = min((int) $amount, 20);
